@@ -19,10 +19,10 @@ function startTimer(duration, displayMinutesFront, displayMinutesBack, displaySe
 }
 
 window.onload = function () {
-    let fiveMinutes = 60 * 30,
+    let halfHour = 60 * 30,
         displayMinutesFront = document.querySelector('.minutes-front');
         displayMinutesBack = document.querySelector('.minutes-back');
         displaySecondsFront = document.querySelector('.seconds-front');
         displaySecondsBack = document.querySelector('.seconds-back');
-    startTimer(fiveMinutes, displayMinutesFront, displayMinutesBack, displaySecondsFront, displaySecondsBack);
+    startTimer(halfHour, displayMinutesFront, displayMinutesBack, displaySecondsFront, displaySecondsBack);
 };
