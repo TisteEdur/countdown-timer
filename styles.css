@@ -185,3 +185,24 @@
     height: 3px;
     background-image: -webkit-linear-gradient(right, rgba(94, 28, 64, 255), transparent);
 }
+
+.creator-container {
+    position: absolute;
+    bottom: 1em;
+    right: 1.5em;
+
+    & .creator-text {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 1rem;
+        color: rgba(254, 254, 254, 255);
+
+        & .creator-hyperlink {
+            font-family: "Poppins";
+            font-size: 1.175rem;
+            font-weight: 600;
+            color: rgba(248, 31, 58, 255);
+            text-decoration: none;
+        }
+    }
+}
